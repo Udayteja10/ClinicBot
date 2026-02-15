@@ -58,11 +58,11 @@ Medical-Chatbot/
 ├── generate_training_data.py
 ├── test_ml_integration.py
 ├── data/
-│   └── training_data.csv
+│ └── training_data.csv
 ├── models/
-│   ├── disease_predictor.pkl
-│   ├── symptom_vectorizer.pkl
-│   └── label_encoder.pkl
+│ ├── disease_predictor.pkl
+│ ├── symptom_vectorizer.pkl
+│ └── label_encoder.pkl
 ├── index.html
 ├── style.css
 ├── script.js
