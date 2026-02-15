@@ -17,7 +17,7 @@ from werkzeug.utils import secure_filename
 from PIL import Image, ImageOps, ImageFilter
 import pytesseract
 import numpy as np
-
+        
 try:
     import easyocr
     EASY_OCR_AVAILABLE = True
@@ -39,7 +39,7 @@ CORS(app)
 chatbot_sessions = {}
 APP_BOOT_TOKEN = str(uuid.uuid4())
 
-# Database setup for authenticated storage
+# Database setup for authenticated storagez
 DB_PATH = os.path.join(os.path.dirname(__file__), 'data', 'user_store.db')
 UPLOAD_DIR = os.path.join(os.path.dirname(__file__), 'data', 'uploads')
 os.makedirs(UPLOAD_DIR, exist_ok=True)
