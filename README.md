@@ -47,17 +47,26 @@ Tech Stack
 - Frontend: HTML, CSS, JavaScript
 - Training data: 3,900 synthetically generated examples
 
-Project Structure
-
 Medical-Chatbot/
-├── app.py                 # Web server
-├── symptom_analyzer.py    # Hybrid ML + rule engine
-├── medical_knowledge.py   # Disease/symptom rules
-├── safety_layer.py        # Emergency detection
+├── app.py
+├── chatbot_engine.py
+├── symptom_analyzer.py
+├── ml_models.py
+├── medical_knowledge.py
+├── safety_layer.py
+├── train_model.py
+├── generate_training_data.py
+├── test_ml_integration.py
 ├── data/
 │   └── training_data.csv
-├── models/                # Saved ML models
-└── index.html             # Chat UI
+├── models/
+│   ├── disease_predictor.pkl
+│   ├── symptom_vectorizer.pkl
+│   └── label_encoder.pkl
+├── index.html
+├── style.css
+├── script.js
+└── requirements.txt
 
 License
 
