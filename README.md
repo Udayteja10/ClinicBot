@@ -47,27 +47,28 @@ Tech Stack
 - Frontend: HTML, CSS, JavaScript
 - Training data: 3,900 synthetically generated examples
 
-Medical-Chatbot/
-├── app.py
-├── chatbot_engine.py
-├── symptom_analyzer.py
-├── ml_models.py
-├── medical_knowledge.py
-├── safety_layer.py
-├── train_model.py
-├── generate_training_data.py
-├── test_ml_integration.py
-├── data/
-│ └── training_data.csv
-├── models/
-│ ├── disease_predictor.pkl
-│ ├── symptom_vectorizer.pkl
-│ └── label_encoder.pkl
-├── index.html
-├── style.css
-├── script.js
-└── requirements.txt
+Project Structure
 
+    Medical-Chatbot/
+    ├── app.py
+    ├── chatbot_engine.py
+    ├── symptom_analyzer.py
+    ├── ml_models.py
+    ├── medical_knowledge.py
+    ├── safety_layer.py
+    ├── train_model.py
+    ├── generate_training_data.py
+    ├── test_ml_integration.py
+    ├── data/
+    │   └── training_data.csv
+    ├── models/
+    │   ├── disease_predictor.pkl
+    │   ├── symptom_vectorizer.pkl
+    │   └── label_encoder.pkl
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── requirements.txt
 License
 
 For educational use only. Not FDA-approved. Not intended for clinical or medical use.
