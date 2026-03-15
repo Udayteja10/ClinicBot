@@ -3,3 +3,9 @@
 data/user_store.db
 data/training_data.csv
 models/*.pkl
+data/training_data.csv
+data/user_store.db
+models/disease_predictor.pkl
+models/label_encoder.pkl
+models/symptom_vectorizer.pkl
+.DS_Store
